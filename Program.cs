@@ -6,16 +6,15 @@ using System.Runtime.ConstrainedExecution;
 using System.Text;
 using System.Threading;
 using static System.Runtime.InteropServices.JavaScript.JSType;
-
 namespace ConsoleApp1
 {
     #region  Part 01 
     #region Q1
 
-    // : Static Polymorphism is Compile-Time Polymorphism that Look at the Variable type and Compile decides which be method will called based on the method signature
+    // Static Binding called Early Binding  happened at Compile-Time that Look at the Variable type and Compile decides which be method will called based on the method signature
     //[happened in Method Overloading, Operators Overloading and Method Hiding]
 
-    //    Dynamic Polymorphism is Run-Time Polymorphism that Look at the Object type and CLR decides which method will be called[happened at
+    //  Dynamic Binding called Late Binding happened at Run-Time that Look at the Object type and CLR decides which method will be called[happened at
     //Method Overriding, Abstract Method and Interface Implementation
     #endregion
     #region Q2
